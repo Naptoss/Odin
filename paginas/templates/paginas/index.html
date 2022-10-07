@@ -1,3 +1,9 @@
 {% extends 'base.html' %}
+{% load static %}
 
-{% block conteudo %} INDEX {% endblock conteudo %}
+{% block conteudo %} 
+<p>INDEX</p> 
+<p>
+    <img src="{% static 'img/b.jpg'%}" style="width: 640px; height: auto">
+</p>
+{% endblock conteudo %}
